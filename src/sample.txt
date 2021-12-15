@@ -1,0 +1,38 @@
+/*import restaurant from './restaurant.jpeg';
+
+let dishes = ["manchurian", 
+"pizza", 
+"pasta"];
+
+//object destructuring
+function Main({name}) {
+  return(
+    <div>
+      <p>Hey {name} I'm here!</p>
+      <img src= {restaurant} alt="it is a restaurant" />
+      <ul style={{textAlign: "left"}}>
+        {dishes.map((dish) => (
+            <li> {dish} </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+function App() {
+  const [emotion, setemotion] = useState();
+  return (
+    <div>
+      <h1> Aastha </h1>
+      <Main name="John" dishes={dishes} />
+      <h2> Branch Btech {emotion} </h2>
+      <button onClick={()=> setemotion("happy")}>Happy</button>
+      <button onClick={()=> setemotion("")}>Not happy</button>
+      <br/>
+    </div>
+  );
+  
+}*/
+
+<p>todays date = {currentDate}</p>
+    <p>current time = {currentTime}</p>
